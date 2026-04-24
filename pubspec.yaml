@@ -55,6 +55,9 @@ dependencies:
   # QR Code
   qr_flutter: ^4.1.0
   
+  # Google Fonts
+  google_fonts: ^6.2.1
+
   # Carousel for hero banners
   carousel_slider: ^4.2.1
   
@@ -63,8 +66,6 @@ dependencies:
 
   # Video player for hero background
   video_player: ^2.9.2
-
-  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:

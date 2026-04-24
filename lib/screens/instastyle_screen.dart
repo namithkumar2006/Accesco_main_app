@@ -212,7 +212,7 @@ class _DeliveryTimerBannerState extends State<_DeliveryTimerBanner> {
             ),
             child: Text(
               '${_minutes.toString().padLeft(2, '0')}:${_seconds.toString().padLeft(2, '0')}',
-              style: const GoogleFonts.dmSans(fontSize: 18,
+              style: GoogleFonts.dmSans(fontSize: 18,
                 fontWeight: FontWeight.w900,
                 color: _A.gold,
                 letterSpacing: 2,
@@ -598,7 +598,7 @@ void _showThriftSheet(BuildContext context) {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(item['name']!, style: const GoogleFonts.dmSans(fontSize: 13, fontWeight: FontWeight.w800, color: _A.black)),
+                      Text(item['name']!, style: GoogleFonts.dmSans(fontSize: 13, fontWeight: FontWeight.w800, color: _A.black)),
                       const SizedBox(height: 2),
                       Row(children: [
                         Container(padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2), color: _A.goldLight,
@@ -613,7 +613,7 @@ void _showThriftSheet(BuildContext context) {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
-                    Text(item['price']!, style: const GoogleFonts.dmSans(fontSize: 14, fontWeight: FontWeight.w900, color: _A.black)),
+                    Text(item['price']!, style: GoogleFonts.dmSans(fontSize: 14, fontWeight: FontWeight.w900, color: _A.black)),
                     const SizedBox(height: 4),
                     GestureDetector(
                       onTap: () {},
@@ -840,7 +840,7 @@ void _showProfileSheet(BuildContext context) {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text('Riya Sharma', style: GoogleFonts.dmSans(fontSize: 16, fontWeight: FontWeight.w900, color: _A.black)),
+                    Text('Riya Sharma', style: GoogleFonts.dmSans(fontSize: 16, fontWeight: FontWeight.w900, color: _A.black)),
                     Text('riya@email.com', style: _A.sportLabel(size: 10, spacing: 0.3, color: _A.mid)),
                     const SizedBox(height: 4),
                     Container(padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3), color: _A.gold,
@@ -909,7 +909,7 @@ class _AdidasSheet extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(subtitle, style: _A.sportLabel(size: 9, spacing: 2, color: _A.gold, weight: FontWeight.w700)),
-                      Text(title, style: const GoogleFonts.dmSans(fontSize: 22, fontWeight: FontWeight.w900, color: _A.black)),
+                      Text(title, style: GoogleFonts.dmSans(fontSize: 22, fontWeight: FontWeight.w900, color: _A.black)),
                     ],
                   ),
                   const Spacer(),
@@ -994,7 +994,7 @@ class _LoopOptionTile extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(label, style: const GoogleFonts.dmSans(fontSize: 13, fontWeight: FontWeight.w800, color: _A.black)),
+                  Text(label, style: GoogleFonts.dmSans(fontSize: 13, fontWeight: FontWeight.w800, color: _A.black)),
                   Text(sub, style: _A.sportLabel(size: 9, spacing: 0.3, color: _A.mid)),
                 ],
               ),
@@ -1025,7 +1025,7 @@ class _TryBeforeStep extends StatelessWidget {
             width: 36, height: 36,
             decoration: const BoxDecoration(color: _A.black, shape: BoxShape.circle),
             alignment: Alignment.center,
-            child: Text(step, style: const GoogleFonts.dmSans(fontSize: 16, fontWeight: FontWeight.w900, color: _A.gold)),
+            child: Text(step, style: GoogleFonts.dmSans(fontSize: 16, fontWeight: FontWeight.w900, color: _A.gold)),
           ),
           const SizedBox(height: 6),
           Text(label.toUpperCase(), maxLines: 1, overflow: TextOverflow.ellipsis, style: _A.sportLabel(size: 9, spacing: 1.5, weight: FontWeight.w800, color: _A.black)),
@@ -1064,7 +1064,7 @@ class _ProfileTile extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(label, style: const GoogleFonts.dmSans(fontSize: 13, fontWeight: FontWeight.w800, color: _A.black)),
+                Text(label, style: GoogleFonts.dmSans(fontSize: 13, fontWeight: FontWeight.w800, color: _A.black)),
                 Text(sub, style: _A.sportLabel(size: 9, spacing: 0.3, color: _A.mid)),
               ],
             ),
@@ -1236,7 +1236,7 @@ class _InstastyleScreenState extends State<InstastyleScreen>
                           Column(
                             mainAxisSize: MainAxisSize.min,
                             children: [
-                              const Text('ACCESCO', style: GoogleFonts.dmSans(fontSize: 20, fontWeight: FontWeight.w900, color: Colors.white, letterSpacing: 7)),
+                              Text('ACCESCO', style: GoogleFonts.dmSans(fontSize: 20, fontWeight: FontWeight.w900, color: Colors.white, letterSpacing: 7)),
                               const SizedBox(height: 4),
                               const _ThreeStripes(color: _A.gold, height: 2),
                             ],
@@ -1693,7 +1693,7 @@ class _DiscoverTab extends StatelessWidget {
               Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Text('YOUR UNIVERSE', style: _A.sportLabel(size: 9, spacing: 2.5, weight: FontWeight.w700)),
                 const SizedBox(height: 2),
-                const Text('InstaStyle Features', style: GoogleFonts.dmSans(fontSize: 22, fontWeight: FontWeight.w900, color: _A.black)),
+                Text('InstaStyle Features', style: GoogleFonts.dmSans(fontSize: 22, fontWeight: FontWeight.w900, color: _A.black)),
               ]),
               const Spacer(),
               const _ThreeStripes(color: _A.gold, height: 4),
@@ -1841,7 +1841,7 @@ class _AccountTile extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(label, style: const GoogleFonts.dmSans(fontSize: 13, fontWeight: FontWeight.w800, color: _A.black)),
+                  Text(label, style: GoogleFonts.dmSans(fontSize: 13, fontWeight: FontWeight.w800, color: _A.black)),
                   Text(sub, style: _A.sportLabel(size: 9, spacing: 0.3, color: _A.mid)),
                 ],
               ),
@@ -2177,7 +2177,7 @@ class _SwipeStyleTabState extends State<_SwipeStyleTab>
                   children: [
                     Text('OUTFIT BUILDER', style: _A.sportLabel(size: 10, spacing: 3)),
                     const SizedBox(height: 2),
-                    const Text('SwipeStyle™', style: GoogleFonts.dmSans(fontSize: 24, fontWeight: FontWeight.w900, color: _A.black)),
+                    Text('SwipeStyle™', style: GoogleFonts.dmSans(fontSize: 24, fontWeight: FontWeight.w900, color: _A.black)),
                   ],
                 ),
                 const Spacer(),
@@ -2366,12 +2366,12 @@ class _SwipeStyleTabState extends State<_SwipeStyleTab>
                 children: [
                   Text(card.style.toUpperCase(), style: _A.sportLabel(size: 9, spacing: 2.5, color: _A.gold, weight: FontWeight.w700)),
                   const SizedBox(height: 3),
-                  Text(card.name, style: const GoogleFonts.dmSans(fontSize: 22, fontWeight: FontWeight.w900, color: Colors.white)),
+                  Text(card.name, style: GoogleFonts.dmSans(fontSize: 22, fontWeight: FontWeight.w900, color: Colors.white)),
                   const SizedBox(height: 6),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text(card.price, style: const GoogleFonts.dmSans(fontSize: 18, fontWeight: FontWeight.w900, color: Colors.white,)),
+                      Text(card.price, style: GoogleFonts.dmSans(fontSize: 18, fontWeight: FontWeight.w900, color: Colors.white,)),
                       Row(children: [
                         const Icon(Icons.swipe_left, color: Colors.white54, size: 15),
                         const SizedBox(width: 5),
@@ -2399,7 +2399,7 @@ class _SwipeStyleTabState extends State<_SwipeStyleTab>
           children: [
             const _ThreeStripes(color: _A.gold, height: 6),
             const SizedBox(height: 24),
-            const Text('YOUR STYLE\nREPORT', textAlign: TextAlign.center,
+            Text('YOUR STYLE\nREPORT', textAlign: TextAlign.center,
               style: GoogleFonts.dmSans(fontSize: 28, fontWeight: FontWeight.w900, color: _A.black, height: 1.1, letterSpacing: -0.5)),
             const SizedBox(height: 10),
             Text(
